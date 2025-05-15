@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/Controlador/PokemonDAO.java;C:/xampp/htdocs/ADSOT/pokeadso/src/Modelo/Pokemon.java;C:/xampp/htdocs/ADSOT/pokeadso/src/Persistencia/ConexionDB.java;C:/xampp/htdocs/ADSOT/pokeadso/src/Vista/PokemonGUI.java" />
+  </component>
+</project>

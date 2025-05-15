@@ -16,4 +16,8 @@ public class PokemonGUI {
     private JTextField textField8;
     private JTextField textField9;
     private JComboBox comboBox1;
+
+    public static void main(String[] args) {
+
+    }
 }
