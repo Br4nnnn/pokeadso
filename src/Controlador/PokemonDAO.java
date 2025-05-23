@@ -29,7 +29,7 @@ public class PokemonDAO
             pst.setInt(4, pokemon.getAltura());
             pst.setString(1, pokemon.getDescripcion());
             pst.setInt(1, pokemon.getAtk());
-            pst.setInt(1, pokemon.getDEF());
+            pst.setInt(1, pokemon.getDef());
             pst.setString(1, pokemon.getFoto());
 
 
@@ -83,7 +83,7 @@ public class PokemonDAO
             pst.setInt(4, pokemon.getAltura());
             pst.setString(1, pokemon.getDescripcion());
             pst.setInt(1, pokemon.getAtk());
-            pst.setInt(1, pokemon.getDEF());
+            pst.setInt(1, pokemon.getDef());
             pst.setString(1, pokemon.getFoto());
 
             int resultado = pst.executeUpdate();
