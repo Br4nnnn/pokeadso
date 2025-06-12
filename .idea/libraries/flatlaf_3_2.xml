@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="javax.activation">
+  <library name="flatlaf-3.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/javax.activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flatlaf-3.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

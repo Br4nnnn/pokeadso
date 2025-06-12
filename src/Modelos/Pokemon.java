@@ -1,26 +1,25 @@
-package Modelo;
+package Modelos;
 
-public class Pokemon
-{
+public class Pokemon {
     int id_pokedex;
     String nombre;
     String tipo;
     int peso;
     int altura;
     String descripcion;
-    int atk;
-    int def;
+    int ataque;
+    int defensa;
     String foto;
 
-    public Pokemon(int id_pokedex, String nombre, String tipo, int peso, int altura, String descripcion, int atk, int def, String foto) {
+    public Pokemon(int id_pokedex, String nombre, String tipo, int peso, int altura, String descripcion, int ataque, int defensa, String foto) {
         this.id_pokedex = id_pokedex;
         this.nombre = nombre;
         this.tipo = tipo;
         this.peso = peso;
         this.altura = altura;
         this.descripcion = descripcion;
-        this.atk = atk;
-        this.def = def;
+        this.ataque = ataque;
+        this.defensa = defensa;
         this.foto = foto;
     }
 
@@ -72,20 +71,20 @@ public class Pokemon
         this.descripcion = descripcion;
     }
 
-    public int getAtk() {
-        return atk;
+    public int getAtaque() {
+        return ataque;
     }
 
-    public void setAtk(int atk) {
-        this.atk = atk;
+    public void setAtaque(int ataque) {
+        this.ataque = ataque;
     }
 
-    public int getDef() {
-        return def;
+    public int getDefensa() {
+        return defensa;
     }
 
-    public void setDef(int def) {
-        this.def = def;
+    public void setDefensa(int defensa) {
+        this.defensa = defensa;
     }
 
     public String getFoto() {
