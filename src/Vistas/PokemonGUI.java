@@ -52,9 +52,8 @@ public class PokemonGUI {
 
     PokemonDao pokemonDao = new PokemonDao();
 
-    public PokemonGUI(){
+    public PokemonGUI() {
         obtenerDatos(); // Cargar datos al inicio
-
         // Acción del botón "Agregar"
         buttonAgregar.addActionListener(new ActionListener() {
             @Override
